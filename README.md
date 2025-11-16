@@ -44,3 +44,38 @@ Proje Dosya Yapısı
 - gif_maker.py, output.gif → GIF oluşturma denemesi
 - recoreder_core.py → Ses kaydedici çalışması
 - .idea/ → PyCharm proje ayarları
+
+
+
+Çalıştırma
+1) Python 3 kurulu olduğundan emin ol.
+2) Depoyu klonla veya dosyaları indir:
+- git clone https://github.com/Woyz01/todoapp-python.git
+- cd todoapp-python
+
+3) Uygulamayı çalıştır:
+- python todo.py
+
+Uygulama Kullanımı
+Program açıldığında şu menü gelir:
+- Görev ekle(1)
+- Görevleri Listele(2)
+- Görev sil(3)
+- Görevi tamamladı olarak işaretle(4)
+- Çıkış(5)
+
+
+Geliştirme Fikirleri
+
+Bu proje, Python öğrenirken temel kavramları pratiğe dökmek için yazıldı. İleride aşağıdaki geliştirmeler yapılabilir:
+Görevlere ID numarası ekleme
+görevler.txt yerine görevler.json ile JSON formatında saklama
+Sınıf tabanlı (class ToDoApp) mimariye geçme
+Basit bir GUI (Tkinter) veya web arayüzü (Flask / FastAPI) ekleme
+Görevler için öncelik (low/medium/high) ve kategori ekleme
+
+
+Yazar
+GitHub: @Woyz01
+
+
